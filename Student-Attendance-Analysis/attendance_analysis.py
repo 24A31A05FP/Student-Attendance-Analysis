@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 df = pd.read_excel("attendance.xlsx")
 df["Attendance Percentage"] = (
     df["ATTENDED CLASSES"] /
-    df["TOTAL C LASSES"]
+    df["TOTAL CLASSES"]
 ) * 100
 print("\nStudent Attendance Data:")
 print(df)
